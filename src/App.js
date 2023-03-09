@@ -1,12 +1,19 @@
 import './App.css';
 import './index.css';
+import HeroSection from "./Components/HeroSection";
+import SideMenu from "./Components/SideMenu";
+import DetailsSection from "./Components/DetailsSection";
+import ImgDiagramSection from "./Components/ImgDiagramSection";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <section className="bg-hero-bg h-[350px]">
-          <img src="./Assets/Group.png" className="object-center w-[160px] h-[40px] align-middle"/>
-      </section>
+      <HeroSection/>
+      <SideMenu/>
+      <DetailsSection/>
+      <ImgDiagramSection/>
+      <Footer/>
     </div>
   );
 }
